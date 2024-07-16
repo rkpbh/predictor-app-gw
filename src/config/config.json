@@ -1,0 +1,17 @@
+{
+    "port": 8000,
+    "backends": [
+        {
+            "route": "/api1",
+            "target": "http://localhost:3333"
+        },
+        {
+            "route": "/api2",
+            "target": "http://localhost:3500"
+        },
+        {
+            "route": "/",
+            "target": "https://iplpredictor.z13.web.core.windows.net/"
+        }
+    ]
+}
